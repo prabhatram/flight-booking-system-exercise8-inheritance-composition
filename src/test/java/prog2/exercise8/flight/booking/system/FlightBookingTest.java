@@ -187,8 +187,8 @@ public class FlightBookingTest
             String result = details.toLowerCase().trim().replace(" ", "");
             
             
-            String expected = "Passenger Name.: " + charter.getPassengerFullName(k) + 
-            "\n" + "Source: BEIJING (BEIJING_CAPITAL_INTERNATOINAL_AIRPORT)" + "\n" + 
+            String expected = "Passenger Name: " + charter.getPassengerFullName(k) + 
+            "\n" + "Source: BEIJING (BEIJING_CAPITAL_INTERNATIONAL_AIRPORT)" + "\n" + 
             "Destination: PARIS (PARIS_CHARLES_DE_GAULLE_AIRPORT)" + "\n" + 
             "Departure: 2023-04-18" + "\n" + "Return: 2023-05-21" + "\n" + 
             "Trip's Total Cost: " + charter.getTotalTicketPrice();
@@ -259,8 +259,8 @@ public class FlightBookingTest
             String result = details.toLowerCase().trim().replace(" ", "");
             
             
-            String expected = "Passenger Name.: " + gov.getPassengerFullName(k) + 
-            "\n" + "Source: BEIJING (BEIJING_CAPITAL_INTERNATOINAL_AIRPORT)" + "\n" + 
+            String expected = "Passenger Name: " + gov.getPassengerFullName(k) + 
+            "\n" + "Source: BEIJING (BEIJING_CAPITAL_INTERNATIONAL_AIRPORT)" + "\n" + 
             "Destination: PARIS (PARIS_CHARLES_DE_GAULLE_AIRPORT)" + "\n" + 
             "Departure: 2023-04-18" + "\n" + "Return: 2023-05-21" + "\n" + 
             "Trip's Total Cost: " + gov.getTotalTicketPrice();
